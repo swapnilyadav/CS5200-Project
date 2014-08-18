@@ -1,0 +1,431 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+html, body {
+	height: 100%;
+	max-height:100%;
+}
+* {
+	margin:0;
+	padding:0;
+}
+img {
+	border:0;
+	outline:none;
+	vertical-align:middle;
+	/*max-width:100%;*/
+	
+}
+.clear:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	
+}
+* html .clear {
+	zoom: 1;
+	clear: both;
+	font-size:1px!important;
+	line-height:1px!important;
+} /* IE6 */
+*:first-child+html .clear {
+	zoom: 1;
+	clear: both;
+	font-size:1px!important;
+	line-height:1px!important;
+} /* IE7 */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 
+    display: block;
+}
+
+
+.toLeft{
+	float:left;	
+}
+
+.toRight{
+	float:right;	
+}
+
+a{text-decoration:none;}
+
+a:hover{text-decoration:underline;}
+
+body
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#fff;
+	background:url(../images/bg-project.jpg);
+}
+
+/*drop down Menu stsrts */
+div#menu {
+	height:48px;
+	background:url(../images/main-menu-bg.jpg) no-repeat;
+	width:980px;
+	margin:0 auto;
+	height: 48px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-top: 0px;
+    width: 980px;
+	align: center;
+}
+div#menu ul {
+	list-style:none;
+	float:left;
+	margin:0;
+	padding:0
+}
+div#menu li {
+	position:relative;
+	z-index:9;
+	display:block;
+	float:left;
+	width:110px;
+	margin:0;
+	padding:0 15px
+}
+div#menu li:hover>ul {
+	left:0!important
+}
+div#menu a {
+	position:relative;
+	z-index:10;
+	height:41px;
+	display:block;
+	float:left;
+	text-decoration:none;
+	font:normal 12px Trebuchet MS;
+	line-height:25px;
+	color:#eddf46;
+	padding:0 10px
+}
+div#menu a:hover, div#menu a:hover span {
+	color:#eddf46
+}
+div#menu span {
+	display:block;
+	cursor:pointer;
+	background-repeat:no-repeat;
+	background-position:95% 0;
+	margin-top:5px;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+div#menu span.supNew sup{
+	color: #cc0000;
+	font-size: 12px;
+	font-weight: bold;	
+	text-transform:lowercase;
+}
+div#menu ul ul a:hover span {
+	background-position:95% 4px;
+	color:#010000!important
+}
+
+div#menu ul ul span sup{
+	color: #cc0000;
+	font-size: 12px;
+	font-weight: bold;	
+}
+
+div#menu ul ul li {
+	width:100%
+}
+div#menu ul ul {
+	position:absolute;
+	top:33px;
+	left:-999em;
+	width:163px;
+	background:#e99c21;
+	margin-top:1px;
+	padding:5px 0 0
+}
+div#menu ul ul a {
+	height:auto;
+	float:none;
+	display:block;
+	line-height:15px;
+	color:#010000;
+	padding:5px 10px 10px
+}
+div#menu ul ul span {
+	margin-top:0;
+	padding-right:15px;
+	_padding-right:20px;
+	color:#010000!important;
+	font-weight:normal;
+	text-transform:none;
+}
+div#menu ul ul ul {
+	background:#292929;
+	margin:-38px 0 0 163px !important;
+	padding:0
+}
+div#menu ul ul ul ul {
+	background:#232323
+}
+div#menu li.back {
+	background:url(../images/main-menu-lava.jpg) no-repeat right -44px!important;
+	background-image:url(../images/main-menu-lava.jpg);
+	width:13px;
+	z-index:8;
+	position:absolute;
+	padding:0!important
+}
+div#menu li.back .left {
+	background:url(../images/main-menu-lava.jpg) no-repeat top left!important;
+	background-image:url(../images/main-menu-lava.jpg));
+	height:33px;
+	margin-right:1px
+}
+div#menu li.lastMenuItem {
+	background:none!important
+}
+div#menu li.last, div#menu ul ul li.last {
+	background:none
+}
+
+div#menu li:hover, div#menu li.current{
+	background:url(../images/main-menu-lava.jpg) no-repeat right -2px!important;
+	background-image:url(../images/main-menu-lava.jpg);
+}
+
+div#menu ul.menu ul.dropDown li:hover{
+	background:none !important;
+}
+
+/*Drop down menu detail pages*/
+.mainNavDetail div#menu {
+	height:30px;
+	background:none!important;
+}
+
+.mainNavDetail div#menu a {
+	position:relative;
+	z-index:10;
+	height:30px;
+	display:block;
+	float:left;
+	text-decoration:none;
+	font:normal 12px Trebuchet MS;
+	line-height:25px;
+	color:#eddf46;
+	padding:0 10px
+}
+
+.mainNavDetail div#menu ul ul {
+	top:30px!important;	
+}
+
+.mainNavDetail div#menu ul ul a{
+	height:20px;
+	padding-top:0!important;	
+}
+.bodyContentWrapper{
+	
+	/*background-position:center 595px;*/
+	background-position:center 564px;
+	padding-bottom:15px;
+}
+
+.bodyContentWrapper .mainBodyContainer{
+	width:980px;
+	margin:0 auto;	
+	/*height:350px;
+	overflow:hidden;*/
+}
+
+/*HOME TOP MENU*/
+div#menu ul.menu a{
+	width:88px;
+	text-align:center;
+}
+
+div#menu ul.menu ul.dropDown a{
+	width:142px !important;
+	text-align:left !important;
+	text-shadow: 1px 1px 1px #F4BF66;
+	color:#000000;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+div#menu a.supNew{
+	text-align:left !important;
+	
+}
+
+div#menu ul ul li {
+padding: 5px 0;
+}
+
+
+div#menu ul ul a:hover span{
+	background:none !important;	
+}
+
+.matchDayWrapper{
+	width:306px;
+	height:250px;
+	float:right;
+	overflow:hidden;
+	border: 2px solid #313D9A;
+	border-top: 0!important;
+	margin-right: 12px;
+	_margin-right: 5px;
+	background-color: #EAC535;
+	color: #49370A;
+	margin-top: -14px;
+}
+
+.tweetWrapper{
+	width:306px;
+	height:250px;
+	float:right;
+	overflow:hidden;
+	border: 2px solid #313D9A;
+	border-top: thick single;
+	margin-right: 12px;
+	_margin-right: 5px;
+	background-color: #EAC535;
+	color: #49370A;
+	margin-top: 50px;
+}
+
+@media 
+only screen and (max-width : 800px){
+.noMobile{
+	display:none;	
+}
+
+.mainNavDetail{
+display:none;
+position:relative;
+top: -5px;
+}
+
+.mainNavDetail div#menu {
+	height:auto;	
+}
+
+div#menu{width:100%;}
+
+div#menu ul {
+	float:none;	
+}
+
+div#menu li {
+	float:none;
+	width:95%;
+	padding:0 1em;
+	background:none;	
+}	
+div#menu ul.menu a {
+	float:none;
+	text-align:left!important;
+	width:auto;
+	font: normal 1.1em Trebuchet MS;
+line-height: 2.5em;
+}
+
+div#menu li:hover, div#menu li.current {
+	background: none!important;
+}
+
+div#menu ul ul {
+	display:none!important;	
+}
+
+.bodyContentWrapper .mainBodyContainer {width:100%;}
+
+.bodyContentWrapper .lhsContainer {display:none;}
+
+.bodyContentWrapper .rhsContainer {
+float: none;
+width: 98%;
+margin:0 auto;
+}
+
+.rhsContainer .mainContentLHS {
+	width: 64%;	
+}
+
+.rhsContainer .contentRHS {
+	width:auto;
+}
+
+.rhsContainer .postWrapper {
+width: auto;}
+
+.rhsContainer .postWrapper .postContainer {
+width: auto;
+}
+
+.postWrapper .socialMediaContainer {width:auto!important;}
+
+.socialMediaContainer .socialGplus {margin-right:10px;}
+}
+
+@media 
+only screen and (max-width : 800px) and (orientation:potrait){
+
+}
+
+@media 
+only screen and (max-width : 480px),
+only screen and (max-width : 480px) and (orientation:landscape){
+
+
+.headerWrapper{
+	display:none;	
+}
+
+.mainNavDetail div#menu {
+	height:auto;	
+}
+
+div#menu{width:100%;}
+
+div#menu ul {
+	float:none;	
+}
+
+div#menu li {
+	float:none;
+	width:95%;
+	padding:0 1em;
+	background:none;	
+}	
+div#menu ul.menu a {
+	float:none;
+	text-align:left!important;
+	width:auto;
+	font: normal 1.1em Trebuchet MS;
+line-height: 2.5em;
+}
+
+div#menu li:hover, div#menu li.current {
+	background: none!important;
+}
+
+div#menu ul ul {
+	display:none!important;	
+}
+
+.bodyContentWrapper .mainBodyContainer {width:100%;}
+
+.bodyContentWrapper .lhsContainer {display:none;}
+
+.bodyContentWrapper .rhsContainer {
+float: none;
+width: 98%;
+margin:0 auto;
+}
+
+

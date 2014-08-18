@@ -1,0 +1,205 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/*Header starts*/
+header.landing .headerWrapper {
+	padding:10px 0 0 0!important;
+}
+header.landing .headerWrapper .toRight{height:23px;}
+header.landing .logoContainer {
+}
+header.landing .logoContainer img {
+	margin-left:353px;
+	width:186px;
+	/*display:block;*/
+}
+/*Header ends*/
+
+/*News Panel starts*/
+
+section.newsPanel {
+	width:630px;
+	height:555px;
+	border:2px solid #313d9a;
+	border-top:0!important;
+	float:left;
+	/*This will position the div just under the menu */
+	margin-left: 12px;
+	_margin-left: 5px;
+	margin-top: -14px;
+	_position:relative;
+}
+
+.imageflow .previous{
+	margin-top:-115px !important;
+	margin-left:-47px !important;
+	background:url(../images/images-2012/arrow-prev-yellow.gif) no-repeat !important;
+}
+
+.imageflow .next{
+	margin:-115px -47px 0 30px !important;
+	background:url(../images/images-2012/arrow-next-yellow.gif) no-repeat !important;	
+}
+
+.imageflow .scrollbar{
+	border:0 !important;	
+}
+
+.imageflow .slider{
+	display:none !important;	
+}
+
+/*news panel slider - new*/
+
+section.newsPanel .newsCarouselWrapper{
+	float:left;
+	width:403px;
+	height:555px;
+	overflow:hidden;	
+	z-index:-1;
+}
+
+section.newsPanel .headlineContent {
+float: left;
+width: 227px;
+margin-left: 0;
+list-style-type: none;
+background: -moz-linear-gradient(0% 100% 90deg, #e3ba33, #f1a62c);
+background: -webkit-gradient(linear, 0 0, 0 100%, from(#f1a62c),to(#e3ba33) );
+filter:progid:DXImageTransform.Microsoft.gradient(startColorStr ='#f1a62c', EndColorStr = '#e3ba33');
+height:555px;
+overflow:hidden;
+}
+
+section.newsPanel .headlineContent li {
+color: #666;
+font-size: 12px;
+margin-bottom: 3px;
+padding: 3px 5px 3px 10px;
+}
+
+section.newsPanel .headlineContent li a {
+    text-decoration: none;
+}
+
+section.newsPanel .headlineContent li:last-child{
+	border:0 !important;	
+}
+
+section.newsPanel .headlineContent li .headlineNews {
+text-align: left;
+padding-top: 2px;
+font-size:13px;
+color:#330000;
+font-family:Arial, Helvetica, sans-serif;
+line-height:17px;
+margin-bottom:5px;
+font-weight:bold;
+box-shadow: rgba(0,0,0,0.4) 2px 2px;
+}
+
+section.newsPanel .headlineContent li .headlineNews a{
+	color:#330000;	
+	text-decoration: none;
+}
+
+section.newsPanel .headlineContent li .headlineNews p{
+	color:#7b0002 !important;
+	-font-size:12px !important;
+	font-family:Arial, Helvetica, sans-serif;
+	line-height:16px;
+	margin-top:2px;
+	font-weight:normal;
+	font-weight: 100;
+     font-size:small; 
+    text-align: left
+ 	
+}
+
+section.newsPanel .headlineContent li .headlineNews p a{
+	color:#f30004 !important;	
+}
+
+section.newsPanel .imageInfo {
+position: relative;
+z-index: 3;
+border: 0px;
+left: 0;
+top: 450px;
+background:url(../images/images-2012/bg-section.png) repeat;
+_background-image:none!important;
+_background-color:#7F5759;
+width: 383px;
+padding: 5px 15px 5px 12px;
+color: #ffffff;
+font-size: 20px;
+font-weight: bold;
+text-transform: none;
+overflow: hidden;
+height: 69px;
+text-align: left;
+text-shadow:1px 1px 2px #000000;
+font-family:'Magra', sans-serif
+}
+
+section.newsPanel .imageInfo {
+	color:#ffffff;	
+}
+
+section.newsPanel div.anythingSlider .anythingControls{
+	display:none !important;	
+}
+
+section.newsPanel div.anythingSlider{
+	height:450px !important;	
+	width:403px !important;
+}
+
+div.anythingSlider, div.anythingSlider .anythingWindow, div.anythingSlider .thumbNav a, div.anythingSlider .arrow a, div.anythingSlider .start-stop{
+	z-index:7 !important;	
+}
+
+section.newsPanel div.anythingSlider.activeSlider .anythingWindow li img{
+max-width: 403px;
+max-height: 450px;
+position: relative;
+z-index: 2;
+top: -80px!important;
+text-align:center;
+}
+
+section.newsPanel div.anythingSlider.activeSlider .anythingWindow ul{
+	height:450px !important;	
+}
+
+section.newsPanel div.anythingSlider.activeSlider .anythingWindow ul li{
+	height:450px !important;
+	width:403px !important;
+}
+
+section.newsPanel .anythingSlider .arrow{
+	z-index:999;	
+}
+
+section.newsPanel div.anythingSlider .forward a{
+	background-position: -28px 12px !important;	
+}
+
+section.newsPanel div.anythingSlider .back a {
+	background-position: 0 12px !important;
+}
+
+section.newsPanel div.anythingSlider .forward a:hover{
+	background-position: -28px -60px !important;
+}
+
+section.newsPanel div.anythingSlider .back a:hover{
+	background-position: 0 -60px !important;
+}
+
+div.anythingSlider .arrow a{
+	background: url(images/arrows.png) no-repeat !important;
+	width:21px !important;
+}
+
+

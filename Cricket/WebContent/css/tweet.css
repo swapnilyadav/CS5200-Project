@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+
+
+ul.tweetContent li .tweet p{
+	color:#7b0002 !important;
+	-font-size:12px !important;
+	font-family:Arial, Helvetica, sans-serif;
+	line-height:16px;
+	margin-top:2px;
+	font-weight:normal;
+	font-weight: 100;
+     font-size:small; 
+}
+
+.tweetContent li {
+color: #666;
+font-size: 12px;
+margin-bottom: 3px;
+padding: 3px 5px 3px 10px;
+}
+
+.tweetContent li a {
+    text-decoration: none;
+}
+
+.tweetContent li .tweet {
+text-align: left;
+padding-top: 2px;
+font-size:13px;
+color:#330000;
+font-family:Arial, Helvetica, sans-serif;
+line-height:17px;
+margin-bottom:5px;
+font-weight:bold;
+box-shadow: rgba(0,0,0,0.4) 2px 2px;
+}
+
+.tweetContent {
+float: left;
+width: 227px;
+margin-left: 0;
+list-style-type: none;
+background: -moz-linear-gradient(0% 100% 90deg, #e3ba33, #f1a62c);
+background: -webkit-gradient(linear, 0 0, 0 100%, from(#f1a62c),to(#e3ba33) );
+filter:progid:DXImageTransform.Microsoft.gradient(startColorStr ='#f1a62c', EndColorStr = '#e3ba33');
+
+overflow:hidden;
+}

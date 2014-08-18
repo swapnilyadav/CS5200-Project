@@ -1,0 +1,241 @@
+.mainContainer{
+    text-align: left;
+    width: 20%;
+    margin-left: 280px;
+    margin-right: 280px;
+}
+
+.displayRankings{
+    width:350px;
+    height:330px;
+    padding-left: 30px;
+    padding-top: 2px;
+   
+    border-color:black;
+    border-style:solid;
+    border-width:1px;
+  	text-decoration-color :black;
+    background: -moz-linear-gradient(0% 100% 90deg, #e3ba33, #f1a62c);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#f1a62c),to(#e3ba33) );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorStr ='#f1a62c', EndColorStr = '#e3ba33');
+}
+
+.navigation {
+    padding-top : 0px;
+    width:310px;
+    height:35px;
+    margin-top : -17px;
+    margin-left:60px;
+    background: -moz-linear-gradient(0% 100% 90deg, #E3BA33, #F1A62C) repeat scroll 0% 0% transparent;
+}
+
+.displayRankingInfo{
+	padding-top : 0px;
+    width:422px;
+    height:296px;
+    text-decoration-color :black;
+    background: -moz-linear-gradient(0% 100% 90deg, #e3ba33, #f1a62c);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#f1a62c),to(#e3ba33) );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorStr ='#f1a62c', EndColorStr = '#e3ba33');
+}
+
+.mainRankingInfo{
+	padding-top : 0px;
+    width:310px;
+    height:310px;
+   
+}
+.rankingNavigation{
+	width:10px;
+    height:100px;
+    padding-top:50px;
+    padding-left:410px;
+    float:left;
+    margin-left : 410px;
+    border-color:black;
+    border-style:solid;
+    border-width:1px;
+ 
+}
+.rankingData{
+	width:190px;
+    height:300px;
+    padding-left:410px;
+    padding-top:150px;
+    margin-left : 410px;
+    border-color:black;
+    border-style:solid;
+    border-width:1px;
+}
+
+.navigation ul 
+{
+	list-style-type:none;
+	background-color:#FFF;
+	margin:0px;
+	padding:10px;
+	padding:0% 0%;
+	background-color:#1054C9;
+	
+	width:100%;
+}
+.navigation ul li 
+{
+	margin:0px;
+	display:inline;
+	color: #1054C9;
+}
+
+.navigation ul li a 
+{
+	text-decoration:none;
+	color:white;
+	display:inline-block;
+	padding:1%;
+	font-weight:bold;
+	background-color:#1054C9
+}
+
+.navigation ul li a:hover
+{
+	background-color:white;
+	color:#1054C9;
+}
+
+div#menu-bar {
+	height:48px;
+	background:url(../images/main-menu-bg.jpg) no-repeat;
+	width:980px;
+	margin:0 auto;
+	height: 48px;
+    margin-bottom: 0;
+    width: 420px;
+	align: center;
+}
+div#menu-bar ul {
+	list-style:none;
+	float:left;
+	margin:0;
+	padding:0
+}
+div#menu-bar li {
+	position:relative;
+	z-index:9;
+	display:block;
+	float:left;
+	width:110px;
+	background:url(../images/images-2012/main-delimiter.png) 100% 1px no-repeat;
+	margin:0;
+	padding:0 15px
+}
+div#menu-bar li:hover>ul {
+	left:0!important
+}
+div#menu-bar a {
+	position:relative;
+	z-index:10;
+	height:41px;
+	display:block;
+	float:left;
+	text-decoration:none;
+	font:normal 12px Trebuchet MS;
+	line-height:25px;
+	color:#eddf46;
+	padding:0 10px
+}
+div#menu-bar a:hover, div#menu-bar a:hover span {
+	color:#eddf46
+}
+div#menu-bar span {
+	display:block;
+	cursor:pointer;
+	background-repeat:no-repeat;
+	background-position:95% 0;
+	margin-top:5px;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+div#menu-bar span.supNew sup{
+	color: #cc0000;
+	font-size: 12px;
+	font-weight: bold;	
+	text-transform:lowercase;
+}
+div#menu-bar ul ul a:hover span {
+	background-position:95% 4px;
+	background-image:url(../images/item-pointer-mover.gif);
+	color:#010000!important
+}
+
+div#menu-bar ul ul span sup{
+	color: #cc0000;
+	font-size: 12px;
+	font-weight: bold;	
+}
+
+div#menu-bar ul ul li {
+	background:url(../images/images-2012/main-delimiter2.png) 1px 100% no-repeat;
+	width:100%
+}
+div#menu-bar ul ul {
+	position:absolute;
+	top:33px;
+	left:-999em;
+	width:163px;
+	background:#e99c21;
+	margin-top:1px;
+	padding:5px 0 0
+}
+div#menu-bar ul ul a {
+	height:auto;
+	float:none;
+	display:block;
+	line-height:15px;
+	color:#010000;
+	padding:5px 10px 10px
+}
+div#menu-bar ul ul span {
+	margin-top:0;
+	padding-right:15px;
+	_padding-right:20px;
+	color:#010000!important;
+	font-weight:normal;
+	text-transform:none;
+}
+div#menu-bar ul ul ul {
+	background:#292929;
+	margin:-38px 0 0 163px !important;
+	padding:0
+}
+div#menu-bar ul ul ul ul {
+	background:#232323
+}
+div#menu-bar li.back {
+	background:url(../images/main-menu-lava.jpg) no-repeat right -44px!important;
+	background-image:url(../images/main-menu-lava.jpg);
+	width:13px;
+	z-index:8;
+	position:absolute;
+	padding:0!important
+}
+div#menu-bar li.back .left {
+	background:url(../images/main-menu-lava.jpg) no-repeat top left!important;
+	background-image:url(../images/main-menu-lava.jpg));
+	height:33px;
+	margin-right:1px
+}
+div#menu-bar li.lastMenuItem {
+	background:none!important
+}
+div#menu-bar li.last, div#menu-bar ul ul li.last {
+	background:none
+}
+
+div#menu-bar li:hover, div#menu-bar li.current{
+	background:url(../images/main-menu-lava.jpg) no-repeat right -2px!important;
+	background-image:url(../images/main-menu-lava.jpg);
+}
+
+div#menu-bar ul.menu ul.dropDown li:hover{
+	background:none !important;
+}

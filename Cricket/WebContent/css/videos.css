@@ -1,0 +1,41 @@
+.containerDiv {
+   width:70%;
+	height:450px;
+	border:2px solid #313d9a;
+	border-top:0!important;
+	float:left;
+	/*This will position the div just under the menu */
+	margin-left: 15%;
+    margin-right: auto;
+	_margin-left: 5px;
+	margin-top: 2px;
+	_position:relative;
+    background-color: #EAC535;
+    color: #49370A;
+    }
+.contentDiv {
+   width:830px;
+	height:100px;
+	/*This will position the div just under the menu */
+	margin-left: 0px;
+	_margin-left: 5px;
+	margin-top: 2px;
+	_position:relative;
+    }
+.infoRight {
+   width:85%;
+	height:15%;
+	/*This will position the div just under the menu */
+	margin-left: 50px;
+	margin-top: 0px;
+	_position:relative;
+    color: #49370A;
+    font-size:14px;
+    }
+ul.videos li 
+        {
+            float: left;
+            margin-left: 2em;
+            margin-bottom: 2em;
+        }
+.fleft { float: left; margin: 0 20px 0 0; }

@@ -1,0 +1,41 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+html, body {
+	height: 100%;
+	max-height:100%;
+}
+* {
+	margin:0;
+	padding:0;
+}
+
+a{text-decoration:none;}
+
+a:hover{text-decoration:underline;}
+
+body
+{
+
+	background:url(../images/bg-project.jpg);
+}
+
+.mainContainer {
+    background-color:#EAC535;
+    color:black;
+    width:70%;
+    margin-left:auto;
+    margin-right:auto;
+    font-size:16px;
+    font-family:Arial, Helvetica, sans-serif;
+    box-shadow: 10px 10px 5px #888888;
+    border-top-left-radius: 10px 5px;
+    border-bottom-right-radius: 10% 5%;
+    border-top-right-radius: 10px;
+    text-indent:100px each-line;
+    padding-left:12px;
+ }
+
+li {
+    margin-left:3%;
+}
